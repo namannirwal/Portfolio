@@ -1,37 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Naman Nirwal - Programmer </title>
+    <title>Personal Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <header>
-        <h1>Naman Nirwal</h1>
-        <p> Programmer </p>
+    <header class="bg-dark text-white py-3">
+        <div class="container">
+            <h1 class="d-inline">Naman Nirwal</h1>
+            <nav class="d-inline float-right">
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link text-white" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <section id="about" class="card">
+    <section id="about" class="py-5">
+        <div class="container">
             <h2>About Me</h2>
-            <p>Hello! I'm Naman Nirwal, a passionate programmer. I find joy in writing and debugging the code.</p>
-        </section>
+            <p>Hello! I'm Naman Nirwal, a passionate programmer and freelancer with a keen interest in technology and web development.</p>
+        </div>
+    </section>
 
-        <section id="contact" class="card">
-            <h2>Contact Details</h2>
-            <p>You can reach out to me via email:</p>
-            <p><a href="mailto:namannirwal4324@gmail.com">namannirwal4324@gmail.com</a></p>
-            <p>Check out my profiles on:</p>
-            <p><a href="https://leetcode.com/namannirwal/" target="_blank" rel="noopener noreferrer">LeetCode</a></p>
-            <p><a href="https://codeforces.com/profile/namannirwal" target="_blank" rel="noopener noreferrer">CodeForces</a></p>
-            <p><a href="https://github.com/naman04032004" target="_blank" rel="noopener noreferrer" class="text-red-500 hover:underline">GitHub</a></p>
-        </section>
-    </main>
+    <section id="projects" class="bg-light py-5">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="project">
+                        <h3>CafeMenu</h3>
+                        <p>A web project showcasing a café menu, built with HTML and CSS.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="project">
+                        <h3>Coronary Artery Disease Detection</h3>
+                        <p>A project using Convolutional Neural Networks (CNN) to detect coronary artery disease.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>You can reach me at <a href="mailto:namansingh@example.com">namansingh@example.com</a>.</p>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2024 Naman Nirwal. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
 </body>
-
 </html>
 
 
